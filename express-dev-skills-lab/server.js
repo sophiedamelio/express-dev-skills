@@ -7,7 +7,6 @@ var methodOverride = require("method-override");
 
 // importing routers with their paths
 var indexRouter = require("./routes/index");
-var usersRouter = require("./routes/users");
 var skillsRouter = require("./routes/skills");
 
 var app = express();
@@ -19,7 +18,6 @@ app.set("view engine", "ejs");
 // middleware could go here
 
 app.use(function (req, res, next) {
-  console.log("hello you there? <------");
   next();
 });
 
