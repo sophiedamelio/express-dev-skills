@@ -1,0 +1,52 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 3fr 1fr;
+  grid-template-areas:
+    "hdr hdr"
+    "link-one link-two"
+    "content-one content-two";
+}
+
+a {
+  color: #00b7ff;
+}
+
+.hdr {
+  grid-area: hdr;
+}
+
+.link-one {
+  grid-area: link-one;
+  margin-bottom: 10px;
+}
+
+.link-two {
+  grid-area: link-two;
+  margin-bottom: 10px;
+}
+
+.content-one {
+  grid-area: content-one;
+}
+
+.content-two {
+  grid-area: content-two;
+}
+
+button {
+  background-color: grey;
+  border: none;
+  color: white;
+  border-radius: 25px;
+  font-size: smaller;
+  padding: 4px;
+}
+
+button:hover {
+  background-color: #00b7ff;
+  color: white;
+  border: none;
+}
