@@ -1,0 +1,1 @@
+This is a homework lab assignment I completed during my studies at General Assembly, demonstrating my express skills.
