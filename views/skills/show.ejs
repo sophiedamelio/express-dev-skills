@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <title>Express Dev Skills</title>
+  </head>
+  <body>
+    <h1 class="hdr">Skill #<%= skill.id %></h1>
+    <h3 class="link-one"><%= skill.skill %></h3>
+    <!-- we do this here because we have access to the ID here -->
+    <a class="content-one" href="/skills/<%= skill.id %>/edit">Edit Skill</a>
+  </body>
+</html>
